@@ -1,0 +1,29 @@
+{
+  "manifest": {
+    "publishingInformation": {
+      "locales": {
+        "de-DE": {
+          "summary": "Alexa Skill powered by ChatGPT",
+          "examplePhrases": [
+            "Alexa, frag Chatneshatigpt etwas",
+            "Chatneshatigpt, was ist deine Meinung dazu?"
+          ],
+          "name": "Chatneshatigpt",
+          "description": "Eine Alexa-Schnittstelle zu ChatGPT"
+        }
+      },
+      "isAvailableWorldwide": true,
+      "testingInstructions": "Sagen Sie einfach etwas zu Alexa.",
+      "category": "KNOWLEDGE_AND_TRIVIA",
+      "distributionCountries": []
+    },
+    "apis": {
+      "custom": {
+        "endpoint": {
+          "uri": "arn:aws:lambda:us-east-1:123456789012:function:ChatneshatigptFunction"
+        }
+      }
+    },
+    "manifestVersion": "1.0"
+  }
+}
